@@ -17,13 +17,14 @@ The tarballs for `MPICH_jll.jl` have been built from these sources:
 
 `MPICH_jll.jl` is available for the following platforms:
 
-* `macOS aarch64 {libgfortran_version=5.0.0, mpi=mpich}` (`aarch64-apple-darwin-libgfortran5-mpi+mpich`)
+* `macOS aarch64 {libgfortran_version=5.0.0, mpi=openmpi}` (`aarch64-apple-darwin-libgfortran5-mpi+openmpi`)
 
 ## Dependencies
 
 The following JLL packages are required by `MPICH_jll.jl`:
 
 * `CompilerSupportLibraries_jll`
+* `Hwloc_jll`
 * `MPIPreferences`
 
 ## Products
