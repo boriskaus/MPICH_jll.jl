@@ -24,6 +24,7 @@ The tarballs for `MPICH_jll.jl` have been built from these sources:
 The following JLL packages are required by `MPICH_jll.jl`:
 
 * `CompilerSupportLibraries_jll`
+* `Hwloc_jll`
 * `MPIPreferences`
 
 ## Products
