@@ -1,16 +1,5 @@
 [[MPICH]]
 arch = "aarch64"
-git-tree-sha1 = "8748d00733e3bc133b576149a0f4ab54aed4c821"
-lazy = true
-libgfortran_version = "5.0.0"
-mpi = "mpich"
-os = "macos"
-
-    [[MPICH.download]]
-    sha256 = "84c80bb03e33a66a58a303fdfb03663a362db4d9f8c6fd2b136fdd1c7ae93847"
-    url = "https://github.com/boriskaus/MPICH_jll.jl/releases/download/MPICH-v4.2.3+1/MPICH.v4.2.3.aarch64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
-[[MPICH]]
-arch = "aarch64"
 git-tree-sha1 = "5b62c899cf8329a8d07e8fe6eda96039010046c7"
 lazy = true
 libgfortran_version = "5.0.0"
@@ -20,3 +9,14 @@ os = "macos"
     [[MPICH.download]]
     sha256 = "5ca68bb1561dbaa88d57f6577c01c8ee174cd0621fe6e2722351449ce0143d95"
     url = "https://github.com/boriskaus/MPICH_jll.jl/releases/download/MPICH-v4.2.3+1/MPICH.v4.2.3.aarch64-apple-darwin-libgfortran5-mpi+openmpi.tar.gz"
+[[MPICH]]
+arch = "aarch64"
+git-tree-sha1 = "5b62c899cf8329a8d07e8fe6eda96039010046c7"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "macos"
+
+    [[MPICH.download]]
+    sha256 = "5ca68bb1561dbaa88d57f6577c01c8ee174cd0621fe6e2722351449ce0143d95"
+    url = "https://github.com/boriskaus/MPICH_jll.jl/releases/download/MPICH-v4.2.3+1/MPICH.v4.2.3.aarch64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
